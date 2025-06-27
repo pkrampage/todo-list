@@ -122,7 +122,7 @@ Building a To-Do List is an excellent project for solidifying vanilla JavaScript
 
 ---
 
-## General Advice for Working Bottom-Up on Your To-Do List:
+## General Advice for Working Bottom-Up on To-Do List project:
 
 1.  **Work on One Phase at a Time:** Get Phase 1 working perfectly before moving to Phase 2, and so on.
 2.  **`console.log()` is Best Friend:** Use `console.log()` constantly to inspect variables (especially your internal task array) and confirm logic is behaving as expected after every interaction.
