@@ -4,7 +4,7 @@ Vanilla JavaScript
 
 ## A Bottom-Up Guide by Gemini 2.5 Flash 
 
-Building a To-Do List is an excellent project for solidifying your vanilla JavaScript skills, especially around CRUD (Create, Read, Update, Delete) operations. This guide will walk you through the logic, necessary tools, and functions in a bottom-up manner, without providing specific code.
+Building a To-Do List is an excellent project for solidifying vanilla JavaScript skills, especially around CRUD (Create, Read, Update, Delete) operations. This guide will walkthrough the logic, necessary tools, and functions in a bottom-up manner, without providing specific code.
 
 ---
 
@@ -13,7 +13,7 @@ Building a To-Do List is an excellent project for solidifying your vanilla JavaS
 **Goal:** Allow users to type a task into an input field and add it as a new item to a list.
 
 * **Logic:**
-    * You'll have an input field (`<input type="text">`) for user input.
+    * Input field (`<input type="text">`) for user input.
     * An "Add Task" button (`<button>`) will trigger the action.
     * When the "Add" button is clicked:
         1.  Retrieve the text from the input field.
@@ -115,7 +115,7 @@ Building a To-Do List is an excellent project for solidifying your vanilla JavaS
 
 ## Progress
 
-* [x] **Phase 1**:  Adding New To-Do Items
+* [x] **Phase 1**: Adding New To-Do Items
 * [x] **Phase 2**: Marking To-Do Items as Complete
 * [x] **Phase 3**: Deleting To-DO Items
 * [ ] **Phase 4**: Storing To-Do Items (Persistence)
@@ -125,9 +125,9 @@ Building a To-Do List is an excellent project for solidifying your vanilla JavaS
 ## General Advice for Working Bottom-Up on Your To-Do List:
 
 1.  **Work on One Phase at a Time:** Get Phase 1 working perfectly before moving to Phase 2, and so on.
-2.  **`console.log()` is Your Best Friend:** Use `console.log()` constantly to inspect your variables (especially your internal task array) and confirm your logic is behaving as expected after every interaction.
-3.  **Separate Concerns with Functions:** Create small, focused functions for distinct pieces of logic (e.g., `createTaskElement()`, `addTask()`, `deleteTask()`, `saveTasks()`, `loadTasks()`, `renderTasks()`). This makes your code modular and easier to debug.
+2.  **`console.log()` is Best Friend:** Use `console.log()` constantly to inspect variables (especially your internal task array) and confirm logic is behaving as expected after every interaction.
+3.  **Separate Concerns with Functions:** Create small, focused functions for distinct pieces of logic (e.g., `createTaskElement()`, `addTask()`, `deleteTask()`, `saveTasks()`, `loadTasks()`, `renderTasks()`). This makes code modular and easier to debug.
 4.  **Test Relentlessly:** After each phase, test all interactions thoroughly. Try common actions, edge cases (empty input, no items), and ensure everything works as expected.
-5.  **Plan Your HTML:** Before writing JavaScript, create the basic HTML structure for your input field, button, and the container for your list items. Give them appropriate IDs or classes.
+5.  **Plan Your HTML:** Before writing JavaScript, create the basic HTML structure for input field, button, and the container for list items. Give them appropriate IDs or classes.
 
-This structured approach will help you build a robust To-Do List step-by-step, understanding each piece of logic along the way. Embrace the learning process!
+This structured approach will help build a robust To-Do List step by step, while deepening your understanding of each part of the logic. Embrace the learning process!
