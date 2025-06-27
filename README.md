@@ -113,6 +113,15 @@ Building a To-Do List is an excellent project for solidifying your vanilla JavaS
 
 ---
 
+## Progress
+
+[x] **Phase 1: Adding New To-Do Items**
+[ ] **Phase 2: Marking To-Do Items as Complete**
+[ ] **Phase 3: Deleting To-DO Items**
+[ ] **Phase 4: Storing To-Do Items (Persistence)**
+
+---
+
 ## General Advice for Working Bottom-Up on Your To-Do List:
 
 1.  **Work on One Phase at a Time:** Get Phase 1 working perfectly before moving to Phase 2, and so on.
