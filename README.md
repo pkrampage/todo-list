@@ -2,7 +2,7 @@
 
 Vanilla JavaScript
 
-**A Bottom-Up Guide by Gemini 2.5 Flash**
+## A Bottom-Up Guide by Gemini 2.5 Flash 
 
 Building a To-Do List is an excellent project for solidifying your vanilla JavaScript skills, especially around CRUD (Create, Read, Update, Delete) operations. This guide will walk you through the logic, necessary tools, and functions in a bottom-up manner, without providing specific code.
 
