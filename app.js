@@ -20,9 +20,14 @@ submitTaskBtn.addEventListener('click', () => {
         warnTxt.style.display = `none`
         displayTask.style.display = `block`
         const newTask = document.createElement('p')
-        newTask.textContent = `Task ${taskCount}: ${taskInput.value}`
+        newTask.innerHTML = `<input type="checkbox" id="checkComplete"> Task ${taskCount}: ${taskInput.value}`
         displayTask.appendChild(newTask)
         taskInput.value = ''
         taskCount++
+
+        const checkbox = newTask.querySelector('input[type="checkbox"]')
+        checkbox.addEventListener('change',()=>{
+            newTask.classList.toggle('completed', checkbox.checked)
+        })
     }
 })
