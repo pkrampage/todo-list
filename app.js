@@ -20,7 +20,7 @@ submitTaskBtn.addEventListener('click', () => {
         warnTxt.style.display = `none`
         displayTask.style.display = `block`
         const newTask = document.createElement('p')
-        newTask.innerHTML = `<input type="checkbox" id="checkComplete"> Task ${taskCount}: ${taskInput.value}`
+        newTask.innerHTML = `<input type="checkbox" id="checkComplete"> Task ${taskCount}: ${taskInput.value} <button class="delTask">Delete Task</button>`
         displayTask.appendChild(newTask)
         taskInput.value = ''
         taskCount++
@@ -28,6 +28,15 @@ submitTaskBtn.addEventListener('click', () => {
         const checkbox = newTask.querySelector('input[type="checkbox"]')
         checkbox.addEventListener('change',()=>{
             newTask.classList.toggle('completed', checkbox.checked)
+        })
+        
+        const deleteTask = newTask.querySelector('.delTask')
+        deleteTask.addEventListener('click',()=>{
+            newTask.remove()
+            taskCount--
+            if(taskCount===1){
+               displayTask.style.display = `none`
+            }
         })
     }
 })
